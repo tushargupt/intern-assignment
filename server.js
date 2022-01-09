@@ -23,10 +23,10 @@ const startServer = async () => {
       useNewUrlParser: true,
     },
     () => {
-      console.log(`Successfully connected to DB`);
+      console.log(`Connected to database`);
     }
   );
-  app.listen(3000, () => console.log("Server running"));
+  app.listen(3000, () => console.log("Server Started on Port 3000"));
 };
 
 startServer();
